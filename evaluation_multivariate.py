@@ -1,5 +1,5 @@
 """
-Advanced evaluation metrics for univariate time series GANs
+Advanced evaluation metrics for multivariate time series GANs
 """
 
 import numpy as np
