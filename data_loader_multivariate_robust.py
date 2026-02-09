@@ -1,5 +1,5 @@
 """
-Robust univariate time series data loader with fallback options
+Robust multivariate time series data loader with fallback options
 """
 
 import numpy as np
