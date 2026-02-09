@@ -1,5 +1,5 @@
 """
-Main pipeline for univariate time series augmentation with BifurcationGAN variants
+Main pipeline for multivariate time series augmentation with BifurcationGAN variants
 """
 
 import numpy as np
