@@ -1,5 +1,5 @@
 """
-Minimal test script to verify the univariate system works
+Minimal test script to verify the multivariate system works
 """
 
 import sys
