@@ -1,5 +1,5 @@
 """
-Advanced GAN framework for univariate time series with bifurcation dynamics
+Advanced GAN framework for multivariate time series with bifurcation dynamics
 """
 
 import torch
