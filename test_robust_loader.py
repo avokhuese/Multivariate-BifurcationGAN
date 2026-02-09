@@ -14,7 +14,7 @@ def test_robust_loader():
     print("=" * 60)
     
     # Use a smaller subset for testing
-    config.dataset_names = ['ECG5000', 'FordB', 'CBF']
+    config.dataset_names = ['BasicMotions', 'EigenWorms', 'Epilepsy']
     config.seq_len = 100
     config.batch_size = 32
     

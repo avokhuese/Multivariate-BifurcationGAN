@@ -35,11 +35,11 @@ class TrainedModelsPlotter:
         
         # All 15 datasets from the benchmark
         self.all_datasets = [
-            'ECG5000', 'FordB', 'CBF', 'ScreenType', 'StrawBerry',
-            'Yoga', 'EOGHorizonSignal', 'Fungi', 'GestureMidAirD1',
-            'InsectEPGRegularTrain', 'MelbournePedestrian', 'PigCVP',
-            'PowerCons', 'SemgHandMovement', 'GunPointAgeSpan'
-        ]
+                'BasicMotions', 'EigenWorms', 'Epilepsy', 'ERing', 
+               'Lightning7', 'FingerMovements', 'HandMovementDirection',
+                'Handwriting', 'Heartbeat', 'JapaneseVowels', 'Libras', 
+                'LSST', 'MotorImagery', 'NATOPS', 'Plane',
+            ]
         
         # Colors for each model
         self.model_colors = {

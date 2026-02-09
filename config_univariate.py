@@ -15,9 +15,11 @@ class UnivariateConfig:
     # Model architecture
     seq_len: int = 100  # Fixed sequence length for training
     latent_dim: int = 128
-    generator_hidden: int = 256
-    discriminator_hidden: int = 256
-    num_layers: int = 3
+    generator_hidden: int = 256  # Increased for complex bifurcation dynamics
+    discriminator_hidden: int = 256  # Increased for better discrimination
+    num_layers: int = 4  # Increased layers for capturing temporal dependencies
+    n_features: int = 10  # Will be set based on dataset
+    
     
     # === BIFURCATION GAN PARAMETERS ===
     use_bifurcation: bool = True
@@ -165,32 +167,32 @@ class UnivariateConfig:
     
     def __post_init__(self):
         """Initialize after dataclass creation"""
-        # Default univariate datasets from aeon
+        # Default datasets
         if self.dataset_names is None:
             self.dataset_names = [
-                'ECG5000', 'FordB', 'CBF', 'ScreenType', 'StrawBerry',
-                'Yoga', 'EOGHorizonSignal', 'Fungi', 'GestureMidAirD1',
-                'InsectEPGRegularTrain', 'MelbournePedestrian', 'PigCVP',
-                'PowerCons', 'SemgHandMovement', 'GunPointAgeSpan'
+                'BasicMotions', 'EigenWorms', 'Epilepsy', 'ERing', 
+               'Lightning7', 'FingerMovements', 'HandMovementDirection',
+                'Handwriting', 'Heartbeat', 'JapaneseVowels', 'Libras', 
+                'LSST', 'MotorImagery', 'NATOPS', 'Plane',
             ]
         
         # Initialize dataset parameters
         self.dataset_params = {
-            'ECG5000': {'avg_length': 140, 'n_classes': 5},
-            'FordB': {'avg_length': 500, 'n_classes': 2},
-            'CBF': {'avg_length': 128, 'n_classes': 3},
-            'ScreenType': {'avg_length': 720, 'n_classes': 3},
-            'StrawBerry': {'avg_length': 235, 'n_classes': 2},
-            'Yoga': {'avg_length': 426, 'n_classes': 2},
-            'EOGHorizonSignal': {'avg_length': 1250, 'n_classes': 12},
-            'Fungi': {'avg_length': 201, 'n_classes': 18},
-            'GestureMidAirD1': {'avg_length': 360, 'n_classes': 13},
-            'InsectEPGRegularTrain': {'avg_length': 601, 'n_classes': 3},
-            'MelbournePedestrian': {'avg_length': 24, 'n_classes': 10},
-            'PigCVP': {'avg_length': 2000, 'n_classes': 52},
-            'PowerCons': {'avg_length': 144, 'n_classes': 2},
-            'SemgHandMovement': {'avg_length': 1500, 'n_classes': 6},
-            'GunPointAgeSpan': {'avg_length': 150, 'n_classes': 2}
+            'BasicMotions': {'n_features': 6, 'avg_length': 100},
+            'EigenWorms': {'n_features': 6, 'avg_length': 17984},
+            'Epilepsy': {'n_features': 3, 'avg_length': 206},
+            'ERing': {'n_features': 4, 'avg_length': 65},
+            'Lightning7': {'n_features': 7, 'avg_length': 319},
+            'FingerMovements': {'n_features': 28, 'avg_length': 50},
+            'HandMovementDirection': {'n_features': 10, 'avg_length': 400},
+            'Handwriting': {'n_features': 3, 'avg_length': 152},
+            'Heartbeat': {'n_features': 61, 'avg_length': 405},
+            'JapaneseVowels': {'n_features': 12, 'avg_length': 29},
+            'Libras': {'n_features': 2, 'avg_length': 45},
+            'LSST': {'n_features': 6, 'avg_length': 36},
+            'MotorImagery': {'n_features': 64, 'avg_length': 3000},
+            'NATOPS': {'n_features': 24, 'avg_length': 51},
+            'Plane': {'n_features': 7, 'avg_length': 144}
         }
         
         # Set natural frequencies

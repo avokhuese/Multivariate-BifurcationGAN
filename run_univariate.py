@@ -123,19 +123,37 @@ def list_datasets_and_models():
     """List available datasets and models"""
     from config_univariate import config
     
-    print("\n" + "=" * 80)
-    print("AVAILABLE DATASETS")
-    print("=" * 80)
+    # print("\n" + "=" * 80)
+    # print("AVAILABLE DATASETS")
+    # print("=" * 80)
+    # for i, dataset in enumerate(config.dataset_names, 1):
+    #     params = config.get_dataset_params(dataset)
+    #     print(f"{i:2d}. {dataset:25s} | Length: {params.get('avg_length', 'N/A'):4d} | "
+    #           f"Classes: {params.get('n_classes', 'N/A'):2d}")
+    
+    print("\n📊 DATASETS (15 total):")
+    print("-" * 40)
     for i, dataset in enumerate(config.dataset_names, 1):
         params = config.get_dataset_params(dataset)
-        print(f"{i:2d}. {dataset:25s} | Length: {params.get('avg_length', 'N/A'):4d} | "
-              f"Classes: {params.get('n_classes', 'N/A'):2d}")
+        features = params.get('n_features', 'N/A')
+        length = params.get('avg_length', 'N/A')
+        print(f"{i:2d}. {dataset:25s} Features: {features:3d}  Length: {str(length):>6}")
     
     print("\n" + "=" * 80)
     print("AVAILABLE MODELS")
     print("=" * 80)
     for i, model in enumerate(config.benchmark_models, 1):
         print(f"{i:2d}. {model}")
+    
+   
+    # print("\n🤖 GAN MODELS (9 total):")
+    # print("-" * 40)
+    # for i, model in enumerate(config.benchmark_models, 1):
+    #     print(f"{i:2d}. {model}")
+    
+    # print("\n" + "=" * 80)
+
+    
     
     print("\n" + "=" * 80)
     print("CONFIGURATION")
