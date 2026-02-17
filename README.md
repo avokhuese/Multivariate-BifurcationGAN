@@ -1,4 +1,4 @@
-# Here's the implementation list for your multivariate analysis project:
+# Here's the implementation use case for your multivariate data augmentation with BifurcationGAN:
 
 # For multivariate Analysis
 # Setup environment
