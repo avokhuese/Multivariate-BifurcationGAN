@@ -228,14 +228,15 @@ jupyter>=1.0.0 # Notebook support
 
 
 ## For the datasets, please cite the aeon library
-@misc{middlehurst2024aeonpythontoolkitlearning,
-      title={aeon: a Python toolkit for learning from time series}, 
-      author={Matthew Middlehurst and Ali Ismail-Fawaz and Antoine Guillaume and Christopher Holder and David Guijo Rubio and Guzal Bulatova and Leonidas Tsaprounis and Lukasz Mentel and Martin Walter and Patrick Schäfer and Anthony Bagnall},
-      year={2024},
-      eprint={2406.14231},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2406.14231}, 
+@article{aeon24jmlr,
+  author  = {Matthew Middlehurst and Ali Ismail-Fawaz and Antoine Guillaume and Christopher Holder and David Guijo-Rubio and Guzal Bulatova and Leonidas Tsaprounis and Lukasz Mentel and Martin Walter and Patrick Sch{{\"a}}fer and Anthony Bagnall},
+  title   = {aeon: a Python Toolkit for Learning from Time Series},
+  journal = {Journal of Machine Learning Research},
+  year    = {2024},
+  volume  = {25},
+  number  = {289},
+  pages   = {1--10},
+  url     = {http://jmlr.org/papers/v25/23-1444.html}
 }
 
 
