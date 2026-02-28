@@ -172,6 +172,75 @@ Publication-quality figure generation:
 ### Installation
 
 1. **Clone the repository**
-```bash  
-git clone https://github.com/yourusername/O-BGAN.git
-cd O-BGAN
+ 
+git clone https://github.com/avokhuese/Multivariate-BifurcationGAN.git
+cd Multivariate-BifurcationGAN
+
+
+2. **Create virtual environment**
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install dependencies**
+   pip install -r requirements.txt
+
+## Quick Start and Full Benchmark
+python run_multivariate.py --debug
+python run_multivariate.py --test
+python run_multivariate.py
+
+## Ablation Study
+python run_ablation.py
+
+
+## Key Innovations
+
+1. Bifurcation-Aware Generation: Models learn to generate data that follows dynamical system principles
+2. Coupled Oscillator Dynamics: Captures complex periodic and quasi-periodic behaviors
+3. Multi-Scale Processing: Handles datasets with varying lengths and dynamics
+4. Comprehensive Evaluation: 10+ metrics for thorough assessment
+5. Statistical Rigor: Multiple runs with significance testing
+
+
+## Requirements
+# Core dependencies
+torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.19.0
+pandas>=1.3.0
+scipy>=1.7.0
+scikit-learn>=0.24.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Progress and utilities
+tqdm>=4.62.0
+
+# Dataset loading
+aeon>=0.6.0
+
+# Optional
+plotly>=5.3.0  # Interactive visualizations
+psutil>=5.8.0  # System monitoring
+jupyter>=1.0.0 # Notebook support
+
+
+## For the datasets, please cite the aeon library
+@misc{middlehurst2024aeonpythontoolkitlearning,
+      title={aeon: a Python toolkit for learning from time series}, 
+      author={Matthew Middlehurst and Ali Ismail-Fawaz and Antoine Guillaume and Christopher Holder and David Guijo Rubio and Guzal Bulatova and Leonidas Tsaprounis and Lukasz Mentel and Martin Walter and Patrick Schäfer and Anthony Bagnall},
+      year={2024},
+      eprint={2406.14231},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2406.14231}, 
+}
+
+
+# Contact
+For questions or collaborations
+
+- Email: avokhuese@gmail.com or alexander.victor4@mail.dcu.ie
+- Github: @avokhuese
