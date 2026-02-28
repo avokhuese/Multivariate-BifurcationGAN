@@ -1,4 +1,4 @@
-#BifurcationGAN: Advanced Time Series Augmentation Framework for Multivariate and Univariate Data
+## BifurcationGAN: Advanced Time Series Augmentation Framework for Multivariate and Univariate Data
 
 ## 📋 Title
 **BifurcationGAN: A generative adversarial network framework for multivariate time series augmentation informed by hopf bifurcation dynamics**
