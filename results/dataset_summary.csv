@@ -1,0 +1,16 @@
+Dataset,Samples,Fixed Length,Type,Padded,Truncated
+BasicMotions,80,100,Real,80,0
+EigenWorms,259,100,Real,259,0
+Epilepsy,275,100,Real,275,0
+ERing,300,100,Real,300,0
+Lightning7,143,100,Real,0,143
+FingerMovements,416,100,Real,416,0
+HandMovementDirection,234,100,Real,234,0
+Handwriting,1000,100,Real,1000,0
+Heartbeat,409,100,Real,409,0
+JapaneseVowels,640,100,Real,640,0
+Libras,360,100,Real,360,0
+LSST,4925,100,Real,4925,0
+MotorImagery,378,100,Real,378,0
+NATOPS,360,100,Real,360,0
+Plane,210,100,Real,0,210

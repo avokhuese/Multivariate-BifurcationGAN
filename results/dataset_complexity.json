@@ -1,0 +1,257 @@
+[
+  {
+    "dataset": "BasicMotions",
+    "n_samples": 80,
+    "seq_len": 100,
+    "average_power": 0.4488022864420725,
+    "entropy_estimate": 3.731342888039007,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.6788207,
+      "hopf_omega": 0.19734012341874763,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 3.3941035,
+      "suggested_noise_std": 0.06697928035860033
+    }
+  },
+  {
+    "dataset": "EigenWorms",
+    "n_samples": 259,
+    "seq_len": 100,
+    "average_power": 334.36330071119795,
+    "entropy_estimate": 0.2755564982160091,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 31.367938900000002,
+      "hopf_omega": 0.11631469152178438,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 156.8396945,
+      "suggested_noise_std": 1.8242760684138404
+    }
+  },
+  {
+    "dataset": "Epilepsy",
+    "n_samples": 275,
+    "seq_len": 100,
+    "average_power": 0.7712853636363637,
+    "entropy_estimate": 8.300887163866818,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.359,
+      "hopf_omega": 0.479364222810272,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 1.795,
+      "suggested_noise_std": 0.08604587799444383
+    }
+  },
+  {
+    "dataset": "ERing",
+    "n_samples": 300,
+    "seq_len": 100,
+    "average_power": 1.185652059683444,
+    "entropy_estimate": 6.343845144588784,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.594272218,
+      "hopf_omega": 0.35661561575887113,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 2.97136109,
+      "suggested_noise_std": 0.10596337647523005
+    }
+  },
+  {
+    "dataset": "Lightning7",
+    "n_samples": 143,
+    "seq_len": 100,
+    "average_power": 0.5968615205331749,
+    "entropy_estimate": 2.4226997511293447,
+    "fractal_dimension": 1.3440289135238714,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 1.240744,
+      "hopf_omega": 0.12411372446089833,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 6.20372,
+      "suggested_noise_std": 0.07699667947125642
+    }
+  },
+  {
+    "dataset": "FingerMovements",
+    "n_samples": 416,
+    "seq_len": 100,
+    "average_power": 2826.942023076923,
+    "entropy_estimate": 0.7879761320975812,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 19.97,
+      "hopf_omega": 0.44737120383593343,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 99.85,
+      "suggested_noise_std": 4.467001470301795
+    }
+  },
+  {
+    "dataset": "HandMovementDirection",
+    "n_samples": 234,
+    "seq_len": 100,
+    "average_power": 24969.022824245738,
+    "entropy_estimate": 0.2935677666503823,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 59.44230780000001,
+      "hopf_omega": 0.5306413918554449,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 297.211539,
+      "suggested_noise_std": 15.771274473045887
+    }
+  },
+  {
+    "dataset": "Handwriting",
+    "n_samples": 1000,
+    "seq_len": 100,
+    "average_power": 1.130517085782615,
+    "entropy_estimate": 8.272435003942245,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.44671000000000005,
+      "hopf_omega": 0.4730865428647812,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 2.23355,
+      "suggested_noise_std": 0.10566624478156322
+    }
+  },
+  {
+    "dataset": "Heartbeat",
+    "n_samples": 409,
+    "seq_len": 100,
+    "average_power": 0.4110495961685192,
+    "entropy_estimate": -0.27784062595555753,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 3.3409,
+      "hopf_omega": 0.03779836834831847,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 16.7045,
+      "suggested_noise_std": 0.0631402844074486
+    }
+  },
+  {
+    "dataset": "JapaneseVowels",
+    "n_samples": 640,
+    "seq_len": 100,
+    "average_power": 0.1589721769605602,
+    "entropy_estimate": 5.344958999709059,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.2155408,
+      "hopf_omega": 0.3638372356624075,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 1.077704,
+      "suggested_noise_std": 0.039210884422231924
+    }
+  },
+  {
+    "dataset": "Libras",
+    "n_samples": 360,
+    "seq_len": 100,
+    "average_power": 0.3523300702887236,
+    "entropy_estimate": -21.188189485819525,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.09323000000000001,
+      "hopf_omega": 0.4142216769177388,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 0.46615,
+      "suggested_noise_std": 0.019308943469520397
+    }
+  },
+  {
+    "dataset": "LSST",
+    "n_samples": 4925,
+    "seq_len": 100,
+    "average_power": 517333.3123169509,
+    "entropy_estimate": 0.004772233517938402,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 4233.1,
+      "hopf_omega": 0.03397642829656574,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 21165.5,
+      "suggested_noise_std": 71.91280931109621
+    }
+  },
+  {
+    "dataset": "MotorImagery",
+    "n_samples": 378,
+    "seq_len": 100,
+    "average_power": 196.75741629464287,
+    "entropy_estimate": 0.5362415944779054,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 18.400000000000002,
+      "hopf_omega": 0.15245507205481906,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 92.0,
+      "suggested_noise_std": 1.4025866629043353
+    }
+  },
+  {
+    "dataset": "NATOPS",
+    "n_samples": 360,
+    "seq_len": 100,
+    "average_power": 1.0318043214075074,
+    "entropy_estimate": 8.69998304831623,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.25996290000000005,
+      "hopf_omega": 0.5940513168099587,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 1.2998145,
+      "suggested_noise_std": 0.07721565153336782
+    }
+  },
+  {
+    "dataset": "Plane",
+    "n_samples": 210,
+    "seq_len": 100,
+    "average_power": 0.739443474880438,
+    "entropy_estimate": 12.217461547092363,
+    "fractal_dimension": 1.0,
+    "nonlinearity_score": 0.5,
+    "suggested_bifurcation_params": {
+      "hopf_mu": 0.26704105,
+      "hopf_omega": 0.6200789360261418,
+      "hopf_alpha": 0.1,
+      "hopf_beta": 1.0,
+      "bifurcation_threshold": 1.33520525,
+      "suggested_noise_std": 0.08279326507965187
+    }
+  }
+]

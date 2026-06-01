@@ -1,0 +1,2 @@
+wasserstein_distance,jensen_shannon_divergence,ks_statistic,ks_pvalue,fid_score,precision,recall,f1_score,mmd_rbf,acf_similarity,psd_similarity,correlation_structure,stationarity_preservation,bifurcation_consistency,overall_quality,model,dataset,timestamp
+0.021117449553768777,0.11862931435654384,0.0428125,0.005667307048375169,0.20528910547320367,0.96875,0.96875,0.968749995,0.0,0.9873286066301423,0.9712831010666167,0.7829982994484486,1.0,0.9995900768929893,0.6038966490946904,wgan,test_set,2026-01-14 22:05:55.381807
